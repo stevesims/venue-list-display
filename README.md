@@ -1,3 +1,25 @@
+# Simple app/component to display list of venues from fetched data
+
+## Basic task
+
+```
+Create a component(s) to display a list of venues using the data from
+
+https://uat.ospace.co.uk/api/v1/spaces/search?location=
+
+Allow venues to the filtered by location (this can be either the city, postcode or venue name) query adding the location to the query string
+
+```
+
+## Rough plan
+
+Use some simple libraries to provide for some basic features:
+* react-final-form for form interaction
+* react-query to fetch data
+
+Initially we'll just throw query results onto the page
+but may later look to format them
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
